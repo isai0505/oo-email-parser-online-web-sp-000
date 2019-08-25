@@ -19,8 +19,3 @@ class EmailAddressParser
   end
 
 end
-
-emails = "hpotter@hogwarts.org, he_who_must_not_be_named@riddleshouse.net"
-parser = EmailAddressParser.new(emails)
-
-puts parser.parse
